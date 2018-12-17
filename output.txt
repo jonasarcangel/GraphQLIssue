@@ -1,0 +1,641 @@
+    info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+          Request starting HTTP/1.1 GET https://localhost:5001/admin  
+    info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+          Request starting HTTP/1.1 GET https://localhost:5001/admin  
+    fail: Microsoft.AspNetCore.NodeServices[0]
+          ERROR { Error: Uncaught (in promise): Error: Network error: Http failure response for (unknown url): 0 Unknown Error
+          Error: Network error: Http failure response for (unknown url): 0 Unknown Error
+              at new ApolloError (GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/apollo-client/bundle.umd.js:85:32)
+              at GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/apollo-client/bundle.umd.js:1041:45
+              at GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/apollo-client/bundle.umd.js:1413:21
+              at Array.forEach (<anonymous>)
+              at GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/apollo-client/bundle.umd.js:1412:22
+              at Map.forEach (<anonymous>)
+              at QueryManager.broadcastQueries (GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/apollo-client/bundle.umd.js:1407:26)
+              at GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/apollo-client/bundle.umd.js:990:35
+              at ZoneDelegate.invoke (GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/zone.js/dist/zone-node.js:388:26)
+              at Object.onInvoke (GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/@angular/core/bundles/core.umd.js:3890:37)
+              at resolvePromise (GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/zone.js/dist/zone-node.js:814:31)
+              at resolvePromise (GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/zone.js/dist/zone-node.js:771:17)
+              at GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/zone.js/dist/zone-node.js:873:17
+              at ZoneDelegate.invokeTask (GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/zone.js/dist/zone-node.js:421:31)
+              at Object.onInvokeTask (GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/@angular/core/bundles/core.umd.js:3881:37)
+              at ZoneDelegate.invokeTask (GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/zone.js/dist/zone-node.js:420:36)
+              at Zone.runTask (GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/zone.js/dist/zone-node.js:188:47)
+              at drainMicroTaskQueue (GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/zone.js/dist/zone-node.js:595:35)
+              at ZoneTask.invokeTask (GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/zone.js/dist/zone-node.js:500:21)
+              at ZoneTask.invoke (GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/zone.js/dist/zone-node.js:485:48)
+            rejection:
+             { Error: Network error: Http failure response for (unknown url): 0 Unknown Error
+                 at new ApolloError (GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/apollo-client/bundle.umd.js:85:32)
+                 at GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/apollo-client/bundle.umd.js:1041:45
+                 at GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/apollo-client/bundle.umd.js:1413:21
+                 at Array.forEach (<anonymous>)
+                 at GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/apollo-client/bundle.umd.js:1412:22
+                 at Map.forEach (<anonymous>)
+                 at QueryManager.broadcastQueries (GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/apollo-client/bundle.umd.js:1407:26)
+                 at GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/apollo-client/bundle.umd.js:990:35
+                 at ZoneDelegate.invoke (GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/zone.js/dist/zone-node.js:388:26)
+                 at Object.onInvoke (GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/@angular/core/bundles/core.umd.js:3890:37)
+               graphQLErrors: [],
+               networkError:
+                HttpErrorResponse {
+                  headers: [HttpHeaders],
+                  status: 0,
+                  statusText: 'Unknown Error',
+                  url: null,
+                  ok: false,
+                  name: 'HttpErrorResponse',
+                  message: 'Http failure response for (unknown url): 0 Unknown Error',
+                  error: [ProgressEvent] },
+               message:
+                'Network error: Http failure response for (unknown url): 0 Unknown Error',
+               extraInfo: undefined },
+            promise:
+             ZoneAwarePromise {
+               __zone_symbol__state: 0,
+               __zone_symbol__value:
+                { Error: Network error: Http failure response for (unknown url): 0 Unknown Error
+                    at new ApolloError (GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/apollo-client/bundle.umd.js:85:32)
+                    at GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/apollo-client/bundle.umd.js:1041:45
+                    at GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/apollo-client/bundle.umd.js:1413:21
+                    at Array.forEach (<anonymous>)
+                    at GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/apollo-client/bundle.umd.js:1412:22
+                    at Map.forEach (<anonymous>)
+                    at QueryManager.broadcastQueries (GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/apollo-client/bundle.umd.js:1407:26)
+                    at GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/apollo-client/bundle.umd.js:990:35
+                    at ZoneDelegate.invoke (GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/zone.js/dist/zone-node.js:388:26)
+                    at Object.onInvoke (GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/@angular/core/bundles/core.umd.js:3890:37)
+                  graphQLErrors: [],
+                  networkError: [HttpErrorResponse],
+                  message:
+                   'Network error: Http failure response for (unknown url): 0 Unknown Error',
+                  extraInfo: undefined } },
+            zone:
+             Zone {
+               _properties: { isAngularZone: true },
+               _parent:
+                Zone {
+                  _properties: {},
+                  _parent: null,
+                  _name: '<root>',
+                  _zoneDelegate: [ZoneDelegate] },
+               _name: 'angular',
+               _zoneDelegate:
+                ZoneDelegate {
+                  _taskCounts: [Object],
+                  zone: [Circular],
+                  _parentDelegate: [ZoneDelegate],
+                  _forkZS: null,
+                  _forkDlgt: null,
+                  _forkCurrZone: [Zone],
+                  _interceptZS: null,
+                  _interceptDlgt: null,
+                  _interceptCurrZone: [Zone],
+                  _invokeZS: [Object],
+                  _invokeDlgt: [ZoneDelegate],
+                  _invokeCurrZone: [Circular],
+                  _handleErrorZS: [Object],
+                  _handleErrorDlgt: [ZoneDelegate],
+                  _handleErrorCurrZone: [Circular],
+                  _scheduleTaskZS: [Object],
+                  _scheduleTaskDlgt: [ZoneDelegate],
+                  _scheduleTaskCurrZone: [Circular],
+                  _invokeTaskZS: [Object],
+                  _invokeTaskDlgt: [ZoneDelegate],
+                  _invokeTaskCurrZone: [Circular],
+                  _cancelTaskZS: [Object],
+                  _cancelTaskDlgt: [ZoneDelegate],
+                  _cancelTaskCurrZone: [Circular],
+                  _hasTaskZS: [Object],
+                  _hasTaskDlgt: [ZoneDelegate],
+                  _hasTaskDlgtOwner: [Circular],
+                  _hasTaskCurrZone: [Circular] } },
+            task:
+             ZoneTask {
+               _zone:
+                Zone {
+                  _properties: [Object],
+                  _parent: [Zone],
+                  _name: 'angular',
+                  _zoneDelegate: [ZoneDelegate] },
+               runCount: 0,
+               _zoneDelegates: null,
+               _state: 'notScheduled',
+               type: 'microTask',
+               source: 'Promise.then',
+               data:
+                ZoneAwarePromise { __zone_symbol__state: 0, __zone_symbol__value: [ApolloError] },
+               scheduleFn: undefined,
+               cancelFn: null,
+               callback: [Function],
+               invoke: [Function] } }
+    fail: Microsoft.AspNetCore.NodeServices[0]
+          ERROR { Error: Uncaught (in promise): Error: Network error: Http failure response for (unknown url): 0 Unknown Error
+          Error: Network error: Http failure response for (unknown url): 0 Unknown Error
+              at new ApolloError (GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/apollo-client/bundle.umd.js:85:32)
+              at GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/apollo-client/bundle.umd.js:1041:45
+              at GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/apollo-client/bundle.umd.js:1413:21
+              at Array.forEach (<anonymous>)
+              at GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/apollo-client/bundle.umd.js:1412:22
+              at Map.forEach (<anonymous>)
+              at QueryManager.broadcastQueries (GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/apollo-client/bundle.umd.js:1407:26)
+              at GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/apollo-client/bundle.umd.js:990:35
+              at ZoneDelegate.invoke (GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/zone.js/dist/zone-node.js:388:26)
+              at Object.onInvoke (GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/@angular/core/bundles/core.umd.js:3890:37)
+              at resolvePromise (GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/zone.js/dist/zone-node.js:814:31)
+              at resolvePromise (GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/zone.js/dist/zone-node.js:771:17)
+              at GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/zone.js/dist/zone-node.js:873:17
+              at ZoneDelegate.invokeTask (GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/zone.js/dist/zone-node.js:421:31)
+              at Object.onInvokeTask (GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/@angular/core/bundles/core.umd.js:3881:37)
+              at ZoneDelegate.invokeTask (GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/zone.js/dist/zone-node.js:420:36)
+              at Zone.runTask (GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/zone.js/dist/zone-node.js:188:47)
+              at drainMicroTaskQueue (GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/zone.js/dist/zone-node.js:595:35)
+              at ZoneTask.invokeTask (GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/zone.js/dist/zone-node.js:500:21)
+              at ZoneTask.invoke (GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/zone.js/dist/zone-node.js:485:48)
+            rejection:
+             { Error: Network error: Http failure response for (unknown url): 0 Unknown Error
+                 at new ApolloError (GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/apollo-client/bundle.umd.js:85:32)
+                 at GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/apollo-client/bundle.umd.js:1041:45
+                 at GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/apollo-client/bundle.umd.js:1413:21
+                 at Array.forEach (<anonymous>)
+                 at GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/apollo-client/bundle.umd.js:1412:22
+                 at Map.forEach (<anonymous>)
+                 at QueryManager.broadcastQueries (GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/apollo-client/bundle.umd.js:1407:26)
+                 at GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/apollo-client/bundle.umd.js:990:35
+                 at ZoneDelegate.invoke (GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/zone.js/dist/zone-node.js:388:26)
+                 at Object.onInvoke (GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/@angular/core/bundles/core.umd.js:3890:37)
+               graphQLErrors: [],
+               networkError:
+                HttpErrorResponse {
+                  headers: [HttpHeaders],
+                  status: 0,
+                  statusText: 'Unknown Error',
+                  url: null,
+                  ok: false,
+                  name: 'HttpErrorResponse',
+                  message: 'Http failure response for (unknown url): 0 Unknown Error',
+                  error: [ProgressEvent] },
+               message:
+                'Network error: Http failure response for (unknown url): 0 Unknown Error',
+               extraInfo: undefined },
+            promise:
+             ZoneAwarePromise {
+               __zone_symbol__state: 0,
+               __zone_symbol__value:
+                { Error: Network error: Http failure response for (unknown url): 0 Unknown Error
+                    at new ApolloError (GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/apollo-client/bundle.umd.js:85:32)
+                    at GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/apollo-client/bundle.umd.js:1041:45
+                    at GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/apollo-client/bundle.umd.js:1413:21
+                    at Array.forEach (<anonymous>)
+                    at GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/apollo-client/bundle.umd.js:1412:22
+                    at Map.forEach (<anonymous>)
+                    at QueryManager.broadcastQueries (GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/apollo-client/bundle.umd.js:1407:26)
+                    at GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/apollo-client/bundle.umd.js:990:35
+                    at ZoneDelegate.invoke (GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/zone.js/dist/zone-node.js:388:26)
+                    at Object.onInvoke (GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/@angular/core/bundles/core.umd.js:3890:37)
+                  graphQLErrors: [],
+                  networkError: [HttpErrorResponse],
+                  message:
+                   'Network error: Http failure response for (unknown url): 0 Unknown Error',
+                  extraInfo: undefined } },
+            zone:
+             Zone {
+               _properties: { isAngularZone: true },
+               _parent:
+                Zone {
+                  _properties: {},
+                  _parent: null,
+                  _name: '<root>',
+                  _zoneDelegate: [ZoneDelegate] },
+               _name: 'angular',
+               _zoneDelegate:
+                ZoneDelegate {
+                  _taskCounts: [Object],
+                  zone: [Circular],
+                  _parentDelegate: [ZoneDelegate],
+                  _forkZS: null,
+                  _forkDlgt: null,
+                  _forkCurrZone: [Zone],
+                  _interceptZS: null,
+                  _interceptDlgt: null,
+                  _interceptCurrZone: [Zone],
+                  _invokeZS: [Object],
+                  _invokeDlgt: [ZoneDelegate],
+                  _invokeCurrZone: [Circular],
+                  _handleErrorZS: [Object],
+                  _handleErrorDlgt: [ZoneDelegate],
+                  _handleErrorCurrZone: [Circular],
+                  _scheduleTaskZS: [Object],
+                  _scheduleTaskDlgt: [ZoneDelegate],
+                  _scheduleTaskCurrZone: [Circular],
+                  _invokeTaskZS: [Object],
+                  _invokeTaskDlgt: [ZoneDelegate],
+                  _invokeTaskCurrZone: [Circular],
+                  _cancelTaskZS: [Object],
+                  _cancelTaskDlgt: [ZoneDelegate],
+                  _cancelTaskCurrZone: [Circular],
+                  _hasTaskZS: [Object],
+                  _hasTaskDlgt: [ZoneDelegate],
+                  _hasTaskDlgtOwner: [Circular],
+                  _hasTaskCurrZone: [Circular] } },
+            task:
+             ZoneTask {
+               _zone:
+                Zone {
+                  _properties: [Object],
+                  _parent: [Zone],
+                  _name: 'angular',
+                  _zoneDelegate: [ZoneDelegate] },
+               runCount: 0,
+               _zoneDelegates: null,
+               _state: 'notScheduled',
+               type: 'microTask',
+               source: 'Promise.then',
+               data:
+                ZoneAwarePromise { __zone_symbol__state: 0, __zone_symbol__value: [ApolloError] },
+               scheduleFn: undefined,
+               cancelFn: null,
+               callback: [Function],
+               invoke: [Function] } }
+    info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+          Request starting HTTP/1.1 GET https://localhost:5001/admin  
+    info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+          Request starting HTTP/1.1 GET https://localhost:5001/admin  
+    info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+          Request finished in 3362.384ms 200 text/html
+    info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+          Request finished in 3362.384ms 200 text/html
+    fail: Microsoft.AspNetCore.NodeServices[0]
+          ERROR { Error: Uncaught (in promise): Error: Network error: Http failure response for (unknown url): 0 Unknown Error
+          Error: Network error: Http failure response for (unknown url): 0 Unknown Error
+              at new ApolloError (GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/apollo-client/bundle.umd.js:85:32)
+              at GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/apollo-client/bundle.umd.js:1041:45
+              at GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/apollo-client/bundle.umd.js:1413:21
+              at Array.forEach (<anonymous>)
+              at GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/apollo-client/bundle.umd.js:1412:22
+              at Map.forEach (<anonymous>)
+              at QueryManager.broadcastQueries (GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/apollo-client/bundle.umd.js:1407:26)
+              at GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/apollo-client/bundle.umd.js:990:35
+              at ZoneDelegate.invoke (GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/zone.js/dist/zone-node.js:388:26)
+              at Object.onInvoke (GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/@angular/core/bundles/core.umd.js:3890:37)
+              at resolvePromise (GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/zone.js/dist/zone-node.js:814:31)
+              at resolvePromise (GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/zone.js/dist/zone-node.js:771:17)
+              at GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/zone.js/dist/zone-node.js:873:17
+              at ZoneDelegate.invokeTask (GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/zone.js/dist/zone-node.js:421:31)
+              at Object.onInvokeTask (GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/@angular/core/bundles/core.umd.js:3881:37)
+              at ZoneDelegate.invokeTask (GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/zone.js/dist/zone-node.js:420:36)
+              at Zone.runTask (GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/zone.js/dist/zone-node.js:188:47)
+              at drainMicroTaskQueue (GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/zone.js/dist/zone-node.js:595:35)
+              at ZoneTask.invokeTask (GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/zone.js/dist/zone-node.js:500:21)
+              at ZoneTask.invoke (GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/zone.js/dist/zone-node.js:485:48)
+            rejection:
+             { Error: Network error: Http failure response for (unknown url): 0 Unknown Error
+                 at new ApolloError (GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/apollo-client/bundle.umd.js:85:32)
+                 at GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/apollo-client/bundle.umd.js:1041:45
+                 at GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/apollo-client/bundle.umd.js:1413:21
+                 at Array.forEach (<anonymous>)
+                 at GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/apollo-client/bundle.umd.js:1412:22
+                 at Map.forEach (<anonymous>)
+                 at QueryManager.broadcastQueries (GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/apollo-client/bundle.umd.js:1407:26)
+                 at GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/apollo-client/bundle.umd.js:990:35
+                 at ZoneDelegate.invoke (GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/zone.js/dist/zone-node.js:388:26)
+                 at Object.onInvoke (GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/@angular/core/bundles/core.umd.js:3890:37)
+               graphQLErrors: [],
+               networkError:
+                HttpErrorResponse {
+                  headers: [HttpHeaders],
+                  status: 0,
+                  statusText: 'Unknown Error',
+                  url: null,
+                  ok: false,
+                  name: 'HttpErrorResponse',
+                  message: 'Http failure response for (unknown url): 0 Unknown Error',
+                  error: [ProgressEvent] },
+               message:
+                'Network error: Http failure response for (unknown url): 0 Unknown Error',
+               extraInfo: undefined },
+            promise:
+             ZoneAwarePromise {
+               __zone_symbol__state: 0,
+               __zone_symbol__value:
+                { Error: Network error: Http failure response for (unknown url): 0 Unknown Error
+                    at new ApolloError (GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/apollo-client/bundle.umd.js:85:32)
+                    at GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/apollo-client/bundle.umd.js:1041:45
+                    at GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/apollo-client/bundle.umd.js:1413:21
+                    at Array.forEach (<anonymous>)
+                    at GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/apollo-client/bundle.umd.js:1412:22
+                    at Map.forEach (<anonymous>)
+                    at QueryManager.broadcastQueries (GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/apollo-client/bundle.umd.js:1407:26)
+                    at GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/apollo-client/bundle.umd.js:990:35
+                    at ZoneDelegate.invoke (GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/zone.js/dist/zone-node.js:388:26)
+                    at Object.onInvoke (GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/@angular/core/bundles/core.umd.js:3890:37)
+                  graphQLErrors: [],
+                  networkError: [HttpErrorResponse],
+                  message:
+                   'Network error: Http failure response for (unknown url): 0 Unknown Error',
+                  extraInfo: undefined } },
+            zone:
+             Zone {
+               _properties: { isAngularZone: true },
+               _parent:
+                Zone {
+                  _properties: {},
+                  _parent: null,
+                  _name: '<root>',
+                  _zoneDelegate: [ZoneDelegate] },
+               _name: 'angular',
+               _zoneDelegate:
+                ZoneDelegate {
+                  _taskCounts: [Object],
+                  zone: [Circular],
+                  _parentDelegate: [ZoneDelegate],
+                  _forkZS: null,
+                  _forkDlgt: null,
+                  _forkCurrZone: [Zone],
+                  _interceptZS: null,
+                  _interceptDlgt: null,
+                  _interceptCurrZone: [Zone],
+                  _invokeZS: [Object],
+                  _invokeDlgt: [ZoneDelegate],
+                  _invokeCurrZone: [Circular],
+                  _handleErrorZS: [Object],
+                  _handleErrorDlgt: [ZoneDelegate],
+                  _handleErrorCurrZone: [Circular],
+                  _scheduleTaskZS: [Object],
+                  _scheduleTaskDlgt: [ZoneDelegate],
+                  _scheduleTaskCurrZone: [Circular],
+                  _invokeTaskZS: [Object],
+                  _invokeTaskDlgt: [ZoneDelegate],
+                  _invokeTaskCurrZone: [Circular],
+                  _cancelTaskZS: [Object],
+                  _cancelTaskDlgt: [ZoneDelegate],
+                  _cancelTaskCurrZone: [Circular],
+                  _hasTaskZS: [Object],
+                  _hasTaskDlgt: [ZoneDelegate],
+                  _hasTaskDlgtOwner: [Circular],
+                  _hasTaskCurrZone: [Circular] } },
+            task:
+             ZoneTask {
+               _zone:
+                Zone {
+                  _properties: [Object],
+                  _parent: [Zone],
+                  _name: 'angular',
+                  _zoneDelegate: [ZoneDelegate] },
+               runCount: 0,
+               _zoneDelegates: null,
+               _state: 'notScheduled',
+               type: 'microTask',
+               source: 'Promise.then',
+               data:
+                ZoneAwarePromise { __zone_symbol__state: 0, __zone_symbol__value: [ApolloError] },
+               scheduleFn: undefined,
+               cancelFn: null,
+               callback: [Function],
+               invoke: [Function] } }
+    fail: Microsoft.AspNetCore.NodeServices[0]
+          ERROR { Error: Uncaught (in promise): Error: Network error: Http failure response for (unknown url): 0 Unknown Error
+          Error: Network error: Http failure response for (unknown url): 0 Unknown Error
+              at new ApolloError (GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/apollo-client/bundle.umd.js:85:32)
+              at GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/apollo-client/bundle.umd.js:1041:45
+              at GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/apollo-client/bundle.umd.js:1413:21
+              at Array.forEach (<anonymous>)
+              at GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/apollo-client/bundle.umd.js:1412:22
+              at Map.forEach (<anonymous>)
+              at QueryManager.broadcastQueries (GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/apollo-client/bundle.umd.js:1407:26)
+              at GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/apollo-client/bundle.umd.js:990:35
+              at ZoneDelegate.invoke (GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/zone.js/dist/zone-node.js:388:26)
+              at Object.onInvoke (GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/@angular/core/bundles/core.umd.js:3890:37)
+              at resolvePromise (GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/zone.js/dist/zone-node.js:814:31)
+              at resolvePromise (GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/zone.js/dist/zone-node.js:771:17)
+              at GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/zone.js/dist/zone-node.js:873:17
+              at ZoneDelegate.invokeTask (GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/zone.js/dist/zone-node.js:421:31)
+              at Object.onInvokeTask (GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/@angular/core/bundles/core.umd.js:3881:37)
+              at ZoneDelegate.invokeTask (GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/zone.js/dist/zone-node.js:420:36)
+              at Zone.runTask (GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/zone.js/dist/zone-node.js:188:47)
+              at drainMicroTaskQueue (GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/zone.js/dist/zone-node.js:595:35)
+              at ZoneTask.invokeTask (GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/zone.js/dist/zone-node.js:500:21)
+              at ZoneTask.invoke (GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/zone.js/dist/zone-node.js:485:48)
+            rejection:
+             { Error: Network error: Http failure response for (unknown url): 0 Unknown Error
+                 at new ApolloError (GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/apollo-client/bundle.umd.js:85:32)
+                 at GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/apollo-client/bundle.umd.js:1041:45
+                 at GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/apollo-client/bundle.umd.js:1413:21
+                 at Array.forEach (<anonymous>)
+                 at GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/apollo-client/bundle.umd.js:1412:22
+                 at Map.forEach (<anonymous>)
+                 at QueryManager.broadcastQueries (GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/apollo-client/bundle.umd.js:1407:26)
+                 at GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/apollo-client/bundle.umd.js:990:35
+                 at ZoneDelegate.invoke (GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/zone.js/dist/zone-node.js:388:26)
+                 at Object.onInvoke (GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/@angular/core/bundles/core.umd.js:3890:37)
+               graphQLErrors: [],
+               networkError:
+                HttpErrorResponse {
+                  headers: [HttpHeaders],
+                  status: 0,
+                  statusText: 'Unknown Error',
+                  url: null,
+                  ok: false,
+                  name: 'HttpErrorResponse',
+                  message: 'Http failure response for (unknown url): 0 Unknown Error',
+                  error: [ProgressEvent] },
+               message:
+                'Network error: Http failure response for (unknown url): 0 Unknown Error',
+               extraInfo: undefined },
+            promise:
+             ZoneAwarePromise {
+               __zone_symbol__state: 0,
+               __zone_symbol__value:
+                { Error: Network error: Http failure response for (unknown url): 0 Unknown Error
+                    at new ApolloError (GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/apollo-client/bundle.umd.js:85:32)
+                    at GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/apollo-client/bundle.umd.js:1041:45
+                    at GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/apollo-client/bundle.umd.js:1413:21
+                    at Array.forEach (<anonymous>)
+                    at GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/apollo-client/bundle.umd.js:1412:22
+                    at Map.forEach (<anonymous>)
+                    at QueryManager.broadcastQueries (GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/apollo-client/bundle.umd.js:1407:26)
+                    at GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/apollo-client/bundle.umd.js:990:35
+                    at ZoneDelegate.invoke (GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/zone.js/dist/zone-node.js:388:26)
+                    at Object.onInvoke (GraphQLIssue/GraphQLIssue/src/GraphQLIssue.Web/ClientApp/node_modules/@angular/core/bundles/core.umd.js:3890:37)
+                  graphQLErrors: [],
+                  networkError: [HttpErrorResponse],
+                  message:
+                   'Network error: Http failure response for (unknown url): 0 Unknown Error',
+                  extraInfo: undefined } },
+            zone:
+             Zone {
+               _properties: { isAngularZone: true },
+               _parent:
+                Zone {
+                  _properties: {},
+                  _parent: null,
+                  _name: '<root>',
+                  _zoneDelegate: [ZoneDelegate] },
+               _name: 'angular',
+               _zoneDelegate:
+                ZoneDelegate {
+                  _taskCounts: [Object],
+                  zone: [Circular],
+                  _parentDelegate: [ZoneDelegate],
+                  _forkZS: null,
+                  _forkDlgt: null,
+                  _forkCurrZone: [Zone],
+                  _interceptZS: null,
+                  _interceptDlgt: null,
+                  _interceptCurrZone: [Zone],
+                  _invokeZS: [Object],
+                  _invokeDlgt: [ZoneDelegate],
+                  _invokeCurrZone: [Circular],
+                  _handleErrorZS: [Object],
+                  _handleErrorDlgt: [ZoneDelegate],
+                  _handleErrorCurrZone: [Circular],
+                  _scheduleTaskZS: [Object],
+                  _scheduleTaskDlgt: [ZoneDelegate],
+                  _scheduleTaskCurrZone: [Circular],
+                  _invokeTaskZS: [Object],
+                  _invokeTaskDlgt: [ZoneDelegate],
+                  _invokeTaskCurrZone: [Circular],
+                  _cancelTaskZS: [Object],
+                  _cancelTaskDlgt: [ZoneDelegate],
+                  _cancelTaskCurrZone: [Circular],
+                  _hasTaskZS: [Object],
+                  _hasTaskDlgt: [ZoneDelegate],
+                  _hasTaskDlgtOwner: [Circular],
+              _hasTaskCurrZone: [Circular] } },
+        task:
+         ZoneTask {
+           _zone:
+            Zone {
+              _properties: [Object],
+              _parent: [Zone],
+              _name: 'angular',
+              _zoneDelegate: [ZoneDelegate] },
+           runCount: 0,
+           _zoneDelegates: null,
+           _state: 'notScheduled',
+           type: 'microTask',
+           source: 'Promise.then',
+           data:
+            ZoneAwarePromise { __zone_symbol__state: 0, __zone_symbol__value: [ApolloError] },
+           scheduleFn: undefined,
+           cancelFn: null,
+           callback: [Function],
+           invoke: [Function] } }
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 85.399ms 200 text/html
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 85.399ms 200 text/html
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:5001/runtime.js  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:5001/runtime.js  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 24.858ms 200 application/javascript; charset=UTF-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 24.858ms 200 application/javascript; charset=UTF-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:5001/styles.js  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:5001/styles.js  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:5001/scripts.js  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:5001/scripts.js  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 30.252ms 200 application/javascript; charset=UTF-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:5001/vendor.js  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 30.252ms 200 application/javascript; charset=UTF-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:5001/vendor.js  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 151.964ms 200 application/javascript; charset=UTF-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 151.964ms 200 application/javascript; charset=UTF-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:5001/polyfills.js  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:5001/polyfills.js  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:5001/main.js  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:5001/main.js  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 306.118ms 200 application/javascript; charset=UTF-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 306.118ms 200 application/javascript; charset=UTF-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 315.544ms 200 application/javascript; charset=UTF-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 315.544ms 200 application/javascript; charset=UTF-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:5001/Roboto-Regular.woff2  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:5001/Roboto-Regular.woff2  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:5001/Roboto-Light.woff2  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:5001/Roboto-Light.woff2  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 4.809ms 200 font/woff2; charset=UTF-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 4.809ms 200 font/woff2; charset=UTF-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 5.324ms 200 font/woff2; charset=UTF-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 5.324ms 200 font/woff2; charset=UTF-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 2026.706ms 200 application/javascript; charset=UTF-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 2026.706ms 200 application/javascript; charset=UTF-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 POST https://localhost:5001/api/GraphQL application/json 351
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 POST https://localhost:5001/api/GraphQL application/json 351
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "PostAsync", controller = "GraphQL"}. Executing action GraphQLIssue.Api.Controllers.GraphQLController.PostAsync (GraphQLIssue.Api)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "PostAsync", controller = "GraphQL"}. Executing action GraphQLIssue.Api.Controllers.GraphQLController.PostAsync (GraphQLIssue.Api)
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:5001/sockjs-node/info?t=1545048266168  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:5001/sockjs-node/info?t=1545048266168  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 22.575ms 200 application/json; charset=UTF-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 22.575ms 200 application/json; charset=UTF-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:5001/sockjs-node/875/npek3ocv/websocket  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET https://localhost:5001/sockjs-node/875/npek3ocv/websocket  
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method GraphQLIssue.Api.Controllers.GraphQLController.PostAsync (GraphQLIssue.Api) with arguments (Method: GET, RequestUri: '<null>', Version: 2.0, Content: <null>, Headers:
+      {
+      }, GraphQLIssue.Api.Models.GraphQLQuery) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method GraphQLIssue.Api.Controllers.GraphQLController.PostAsync (GraphQLIssue.Api) with arguments (Method: GET, RequestUri: '<null>', Version: 2.0, Content: <null>, Headers:
+      {
+      }, GraphQLIssue.Api.Models.GraphQLQuery) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method GraphQLIssue.Api.Controllers.GraphQLController.PostAsync (GraphQLIssue.Api), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 100.19ms.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method GraphQLIssue.Api.Controllers.GraphQLController.PostAsync (GraphQLIssue.Api), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 100.19ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.Net.Http.HttpResponseMessage'.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'System.Net.Http.HttpResponseMessage'.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action GraphQLIssue.Api.Controllers.GraphQLController.PostAsync (GraphQLIssue.Api) in 354.489ms
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action GraphQLIssue.Api.Controllers.GraphQLController.PostAsync (GraphQLIssue.Api) in 354.489ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 566.747ms 200 application/json; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 566.747ms 200 application/json; charset=utf-8
+info: Microsoft.AspNetCore.Server.Kestrel[32]
+      Connection id "0HLJ42V2F6S9V", Request id "0HLJ42V2F6S9V:00000003": the application completed without reading the entire request body.
+info: Microsoft.AspNetCore.Server.Kestrel[32]
+      Connection id "0HLJ42V2F6S9V", Request id "0HLJ42V2F6S9V:00000003": the application completed without reading the entire request body.
+
